@@ -236,6 +236,22 @@ section h2 {
 }
 .pub-links a:hover { color: var(--accent); border-color: var(--accent); }
 
+.pub-tags {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.pub-tag {
+  font-size: 0.78rem;
+  padding: 0.1rem 0.55rem;
+  background: #dbeafe;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  color: #1e3a8a;
+  font-weight: 500;
+}
+
 /* ---------- footer ---------- */
 footer {
   margin-top: 4rem;
